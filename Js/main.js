@@ -39,7 +39,7 @@ function rendering() {
         console.log('lose');
     }
   
-    setInterval(initalSrc, 5000)
+    setTimeout(initalSrc, 5000)
 }
 
 function initalSrc() {
