@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Css/normalize.css">
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body>
+  <main>
+    <div class="sideBar">
+      <div class="icon_block" onclick="chooseImg(1)">
+        <img src="/assets/img/game_1.svg" alt="">
+        <h3>Rock</h3>
+      </div>
+      <hr/>
+      <div class="icon_block" onclick="chooseImg(2)">
+        <img src="/assets/img/game_2.svg" alt="">
+        <h3>Paper</h3>
+      </div>
+      <hr/>
+      <div class="icon_block" onclick="chooseImg(3)">
+        <img src="/assets/img/game_3.svg" alt="">
+        <h3>Scissors</h3>
+      </div>
+    </div>
+    <div class="game_area">
+     <div class="img_block" id="img_block">
+      <div> 
+        <div class="img_bg">
+        <img id="myImgSrc" src="/assets/img/question_mark.svg" alt="">
+      </div>
+    <h1>YOU</h1>
+    </div>
+    <h1 class="vs">VS</h1>
+      <div> 
+        <div class="img_bg">
+        <img id="compImgSrc" src="/assets/img/question_mark.svg" alt="">
+      </div>
+    <h1>COMPUTER</h1>
+    </div>
+     </div>
+     <button class="startBtn" onclick="rendering()">Start</button>
+    </div>
+  </main>
+  <script src="Js/main.js"></script>
+</body>
+</html> 

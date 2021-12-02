@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+:root{
+    --main-text:#B4B1B1;
+    --main-bg: rgba(172, 172, 172, 0.1);
+    --main-btn: #0BD4A4;
+}
+
+main {
+    margin-top: 40px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+.sideBar{
+display: block;
+background: rgba(196, 196, 196, 0.1);
+border: 1px solid #E5E5E5;
+width: 177px;
+height: 519px;
+}
+.sideBar hr {
+    background-color: #E5E5E5;
+}
+.sideBar div img{
+    width: 120px;
+    height: 120px;
+}
+.sideBar div {
+    margin: 16px 38px 0px 19px;
+    text-align: center;
+}
+.sideBar div h3 {
+    margin-top: 2px;
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--main-text);
+}
+.img_bg {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 250px;
+height: 232px;
+border-radius: 150px;
+background-color: var(--main-bg);
+}
+.img_block div h1 {
+    font-size: 32px;
+    color: var(--main-text);
+}
+.img_block {
+    width: 250px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.img_block div {
+    margin: 25px;
+}
+.vs {
+    font-size: 100px;
+    color:#C9D1D3;
+}
+.startBtn {
+width: 409px;
+height: 83px;
+font-size: 30px;
+border-radius: 60px;
+color: #fff;
+background: var(--main-btn);
+outline: none;
+cursor: pointer;
+border-color: transparent;
+margin-left: 50%;
+margin-right: 50%;
+}
+.icon_block {
+    cursor: pointer;
+}
+
+.home_main {
+    display: block;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 100vh;
+}
+
+.home_img {
+    display: flex;
+    justify-content: center;
+}
+.home_img > img {
+width: 481px;
+height: 497px;
+}
+.btn_block {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn_block a {
+    margin-left: 20px;
+    margin-right: 20px;
+background: #10A4F8;
+border-radius: 60px;
+padding: 24px 69px;
+font-size: 30px;
+color: white;
+}
