@@ -12,11 +12,16 @@
     --main-btn: #0BD4A4;
 }
 
-main {
+.main_block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin-top: 40px;
-    max-width: 1200px;
+    max-width: 1350px;
     margin-left: auto;
     margin-right: auto;
+}
+main {
     display: flex;
     align-items: center;
 }
@@ -117,4 +122,64 @@ border-radius: 60px;
 padding: 24px 69px;
 font-size: 30px;
 color: white;
+}
+.result_txt {
+    min-height: 40px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.result_txt h1 {
+font-style: normal;
+font-weight: bold;
+font-size: 38px;
+color: #F0DD35;
+}
+
+.game_history {
+    width: 286px;
+    background: rgba(48, 39, 39, 0.1);
+    min-height: 100vh;
+}
+.title_block {
+padding: 37px 90px 17px 52px;
+border-bottom: 1px solid #C9D1D3;
+}
+.title_block h1 {
+    font-weight: bold;
+font-size: 22px;
+color: #B4B1B1;
+}
+.statistic {
+    padding-left: 18px;
+    padding-top: 26px;
+}
+.statistic p {
+margin-top: 9px;
+margin-bottom: 9px;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+color: #B4B1B1;
+}
+.type_game {
+    position: absolute;
+    bottom: 0;
+    padding-left: 18px;
+}
+.type_game h3 {
+font-weight: bold;
+font-size: 22px;
+line-height: 26px;
+color: #B4B1B1;
+}
+.type_game h4 {
+font-weight: bold;
+font-size: 22px;
+line-height: 26px;
+color: #B4B1B1;
 }

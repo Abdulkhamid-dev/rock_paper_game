@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="Css/style.css">
 </head>
 <body>
+ <div class="main_block">
+  <section>
+    <div class="result_txt" id="result_txt"></div>
   <main>
     <div class="sideBar">
       <div class="icon_block" onclick="chooseImg(1)">
@@ -45,6 +48,22 @@
      <button class="startBtn" onclick="rendering()">Start</button>
     </div>
   </main>
+  </section>
+  <section class="game_history">
+    <div class="title_block">
+      <h1>Game history</h1>
+    </div>
+    <div class="statistic" id="statistic">
+      <!-- <p>1. Play vs Computer: Win</p>
+      <p>1. Play vs Computer: Win</p>
+      <p>1. Play vs Computer: Win</p>
+      <p>1. Play vs Computer: Win</p> -->
+    </div>
+    <div class="type_game" id="type_game">
+      <div id="game_num"></div>
+    </div>
+  </section>
+ </div>
   <script src="Js/main.js"></script>
 </body>
 </html> 
